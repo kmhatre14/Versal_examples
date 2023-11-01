@@ -1,0 +1,2 @@
+AIE_PKG_DIR=/home/kmhatre/Vitis/tutorials/Vec_X_Vec/./Work
+AIE_DUMP_VCD=foo

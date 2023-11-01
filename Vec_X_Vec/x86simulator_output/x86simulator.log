@@ -1,0 +1,8 @@
+INFO: Reading options file './Work/options/x86sim.options'.
+GMIO::malloc completed
+Assertion failure 'resetList.size() == winCount' at /wrk/wall1/workspaces/wall723/sub/REL/2022.1/src/products/cardano/src/x86sim/src/gmio.cpp:238
+terminate called after throwing an instance of 'std::system_error'
+  what():  Resource deadlock avoided
+/scratch/kmhatre/AMD_tools//Vitis/2022.1/aietools/bin/x86simulator: line 409: 1852084 Aborted                 (core dumped) setsid $X86SIM_PROG
+/scratch/kmhatre/AMD_tools//Vitis/2022.1/aietools/bin/x86simulator: line 409: kill: (1852084) - No such process
+Simulation Failed returning non zero

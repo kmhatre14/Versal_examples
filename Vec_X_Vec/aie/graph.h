@@ -15,7 +15,8 @@ limitations under the License.
 
 #include <adf.h>
 #include "kernel.h"
-
+#define ELEMENTS 4096
+#define BUF_SIZE (ELEMENTS * 4)
 class mygraph: public adf::graph
 {
 private:
@@ -33,9 +34,9 @@ public:
         gmioIn1 = adf::input_gmio::create("gmioIn1",64,1000);
         gmioIn2 = adf::input_gmio::create("gmioIn2",64,1000);
 
-        adf::connect<adf::window<512>>(gmioIn1.out[0], k_m.in[0]);
-        adf::connect<adf::window<512>>(gmioIn2.out[0], k_m.in[1]);
-        adf::connect<adf::window<1>>(k_m.out[0], gmioOut.in[0]);
+        adf::connect<adf::window<BUF_SIZE>>(gmioIn1.out[0], k_m.in[0]);
+        adf::connect<adf::window<BUF_SIZE>>(gmioIn2.out[0], k_m.in[1]);
+        adf::connect<adf::window<BUF_SIZE>>(k_m.out[0], gmioOut.in[0]);
         adf::source(k_m) = "vecReduce.cc";
         adf::runtime<adf::ratio>(k_m)= 0.9;
     };

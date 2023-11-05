@@ -19,7 +19,7 @@ GRAPH    = aie/graph.cpp
 LIBADF  = libadf.a
 AIE_CMPL_CMD = aiecompiler -platform=${PLATFORM} -include="./aie" -workdir=./Work ${GRAPH}
 AIE_CMPL_CMD_X86 = aiecompiler -platform=${PLATFORM} --target=x86sim -include="./aie" -workdir=./Work ${GRAPH}
-AIE_SIM_CMD = aiesimulator --pkg-dir=./Work --dump-vcd foo
+AIE_SIM_CMD = aiesimulator --pkg-dir=./Work --dump-vcd foo --profile
 
 ##########################################################################################################################################################
 ### DO NOT MODIFY BELOW THIS LINE UNLESS NECESSARY

@@ -14,15 +14,16 @@ limitations under the License.
 
 void VecReduce(input_window<int32> *in1,input_window<int32> *in2, output_window<int32> *out) 
 {
-    int32 wsum = 0;
+    int32 wsum=0;
     int32 val1=0;
     int32 val2=0;
-    for (unsigned i = 0; i < 128; i++) 
+    for (unsigned i = 0; i < 4096; i++) 
     {
 
         window_readincr(in1, val1);
         window_readincr(in2, val2);
-        wsum = wsum + (val1 * val2);
+        wsum = val1 * val2;
+        window_writeincr(out, wsum);
+
     }
-    window_write(out, wsum);
 }

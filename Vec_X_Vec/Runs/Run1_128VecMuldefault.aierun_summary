@@ -1,0 +1,228 @@
+<ENTRY>
+{
+ "thisFile": "/home/kmhatre/Vitis/tutorials/Versal_examples/Vec_X_Vec/aiesimulator_output/default.aierun_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Nov  2 19:12:44 2023",
+ "timestampMillis": "1698977564996",
+ "report": {
+  "path": "/home/kmhatre/Vitis/tutorials/Versal_examples/Vec_X_Vec/Work",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "AIE_COMPILER_WORKDIR",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Thu Nov  2 19:12:44 2023",
+ "timestampMillis": "1698977564997",
+ "buildStep": {
+  "cmdId": "79dc0edd-31a3-4404-9709-9350eb23279a",
+  "name": "aiesim",
+  "logFile": "/home/kmhatre/Vitis/tutorials/Versal_examples/Vec_X_Vec/aiesimulator.log",
+  "commandLine": "aiesimulator --pkg-dir ./Work --aiearch-version aie --dump-vcd foo --profile ",
+  "args": [
+   "aiesimulator",
+   "--pkg-dir ./Work",
+   "--aiearch-version aie",
+   "--dump-vcd foo",
+   "--profile"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/kmhatre/Vitis/tutorials/Versal_examples/Vec_X_Vec"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Nov  2 19:12:44 2023",
+ "timestampMillis": "1698977564998",
+ "status": {
+  "cmdId": "79dc0edd-31a3-4404-9709-9350eb23279a",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Thu Nov  2 19:12:45 2023",
+ "timestampMillis": "1698977565004",
+ "buildSummary": {
+  "hardwarePlatform": "xcvc1902-vsva2197-2MP-e-S",
+  "hardwareDsa": "VC1902",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_COMPILE",
+  "target": "TT_AIESIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "",
+     "file": "/home/kmhatre/Vitis/tutorials/Versal_examples/Vec_X_Vec/Work/temp/graph.json",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/home/kmhatre/Vitis/tutorials/Versal_examples/Vec_X_Vec/aie/graph.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "AIE",
+    "frequency": 1250,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2022.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Nov  2 19:12:45 2023",
+ "timestampMillis": "1698977565017",
+ "report": {
+  "path": "/home/kmhatre/Vitis/tutorials/Versal_examples/Vec_X_Vec/foo.vcd",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "VARIABLE_CHANGE_DUMP",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Nov  2 19:15:17 2023",
+ "timestampMillis": "1698977717725",
+ "report": {
+  "path": "/home/kmhatre/Vitis/tutorials/Versal_examples/Vec_X_Vec/aiesimulator_output/profile_instr_26_0.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "AIE_INSTR_PROFILE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Nov  2 19:15:17 2023",
+ "timestampMillis": "1698977717726",
+ "report": {
+  "path": "/home/kmhatre/Vitis/tutorials/Versal_examples/Vec_X_Vec/aiesimulator_output/profile_instr_25_0.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "AIE_INSTR_PROFILE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Nov  2 19:15:17 2023",
+ "timestampMillis": "1698977717727",
+ "report": {
+  "path": "/home/kmhatre/Vitis/tutorials/Versal_examples/Vec_X_Vec/aiesimulator_output/profile_funct_26_0.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "AIE_FUNCT_PROFILE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Nov  2 19:15:17 2023",
+ "timestampMillis": "1698977717728",
+ "report": {
+  "path": "/home/kmhatre/Vitis/tutorials/Versal_examples/Vec_X_Vec/aiesimulator_output/profile_funct_26_0.txt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "AIE_FUNCT_PROFILE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Nov  2 19:15:17 2023",
+ "timestampMillis": "1698977717728",
+ "report": {
+  "path": "/home/kmhatre/Vitis/tutorials/Versal_examples/Vec_X_Vec/aiesimulator_output/profile_funct_25_0.txt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "AIE_FUNCT_PROFILE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Nov  2 19:15:17 2023",
+ "timestampMillis": "1698977717729",
+ "report": {
+  "path": "/home/kmhatre/Vitis/tutorials/Versal_examples/Vec_X_Vec/aiesimulator_output/profile_funct_25_0.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "AIE_FUNCT_PROFILE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Nov  2 19:15:17 2023",
+ "timestampMillis": "1698977717730",
+ "report": {
+  "path": "/home/kmhatre/Vitis/tutorials/Versal_examples/Vec_X_Vec/aiesimulator_output/profile_instr_25_0.txt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "AIE_INSTR_PROFILE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Nov  2 19:15:17 2023",
+ "timestampMillis": "1698977717730",
+ "report": {
+  "path": "/home/kmhatre/Vitis/tutorials/Versal_examples/Vec_X_Vec/aiesimulator_output/profile_instr_26_0.txt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "AIE_INSTR_PROFILE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Nov  2 19:15:17 2023",
+ "timestampMillis": "1698977717731",
+ "status": {
+  "cmdId": "79dc0edd-31a3-4404-9709-9350eb23279a",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
